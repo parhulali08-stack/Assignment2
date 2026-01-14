@@ -1,7 +1,7 @@
 public class Car extends Vehicle {
     private int doors;
     private String fuelType;
-    private Driver driver; // composition
+    private Driver driver; 
 
     public Car(String brand, int year, int doors, String fuelType) {
         super(brand, year);
